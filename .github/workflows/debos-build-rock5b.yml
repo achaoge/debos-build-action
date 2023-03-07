@@ -1,5 +1,4 @@
 name: debos-radxa build
-description: 'Radxa system build framework'
 
 on:
   repository_dispatch:
