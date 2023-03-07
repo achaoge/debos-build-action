@@ -1,4 +1,4 @@
-name: 'debos-radxa/build'
+name: debos-radxa build
 description: 'Radxa system build framework'
 
 on:
@@ -28,6 +28,7 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: radxa/debos-radxa
+          
       - name: Convert flavor to variant
         shell: bash
         run: |
