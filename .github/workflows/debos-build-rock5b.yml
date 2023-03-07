@@ -9,7 +9,7 @@ on:
         description: "select the board"
         type: choice
         options: 
-          - "rock 5b"
+          - "rock-5b"
       distro:
         required: true
         description: "select the distro"
