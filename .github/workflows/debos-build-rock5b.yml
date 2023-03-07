@@ -6,12 +6,26 @@ on:
     inputs:
       board:
         required: true
+        description: "select the board"
+        type: choice
+        options: 
+          - "rock 5b"
       distro:
         required: true
+        description: "select the distro"
+        type: choice
+        options: 
+          - "debian"
+          - "ubuntu"
       suite:
         required: false
       flavor:
         required: true
+        description: "select the flavor"
+        type: choice
+        options: 
+          - "xfce4"
+          - "server"
       artifacts:
         required: false
         default: 'false'
